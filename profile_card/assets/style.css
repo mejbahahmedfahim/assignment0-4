@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ecf0f3;
+}
+.wrapper,
+.wrapper .img-area,
+.social-icons a, .buttons button
+{
+
+     background: #ecf0f3;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff,
+                     3px 3px 5px #ceced1;
+}
+.wrapper{
+    
+  
+    padding: 30px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #d2ecff;
+   
+}
+
+.wrapper .img-area{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.img-area .inner-area{
+    height: calc(100% - 25px);
+    width: calc(100% - 25px);
+    
+}
+.inner-area img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.wrapper .name{
+    font-size: 23px;
+    font-weight: 500;
+    margin: 10px 0 5px 0;
+}
+
+.wrapper .profession{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(155, 137, 255);
+    margin: 5px 0 5px 0;
+}
+
+.wrapper .bio{
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+.wrapper .social-icons{
+    margin: 15px 0 25px 0;
+}
+.social-icons a{
+    
+   height: 50px;
+   width: 50px;
+   display: inline-flex;
+   text-decoration: none;
+   margin: 0px;
+   border-radius: 50%;
+
+}
+
+.social-icons a i{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+}
+.social-icons h5{
+    text-align: center;
+    margin: 5px 0 10px 0;
+}
+
+.wrapper .buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+  }
+.buttons button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    font-size: 12px;
+    font-weight: 400;
+    background: #d2ecff;
+}
+.buttons button a{
+    text-decoration: none;
+}
+
+.buttons button:first-child{
+   margin-right: 10px;
+    padding: 5px;
+   
+}
+.buttons button:last-child{
+    padding: 5px;
+}
+
+
+
+  
+    
+  
